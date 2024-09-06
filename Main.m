@@ -25,8 +25,7 @@ clc;clear all;
 %% Control model selection
 RTCmodel = 1; 
 %% Reading input data
-path = 'F:\孙蓝心\成果\SCI论文3_2024.3~2024\返修1-WR\stormwater_PFL-RBC_tool\Data\';
-%path = 'D:\PFL-RBC\Data\';
+path = 'D:\PFL-RBC\Data\';
 load(strcat(path, 'paras_TVGM.mat')); % TVGM-Urban urban hydrological model parameters
 load(strcat(path, 'PPx.mat'));% forecast rainfall data
 load(strcat(path, 'Pcs.mat'));% monitored rainfall data
